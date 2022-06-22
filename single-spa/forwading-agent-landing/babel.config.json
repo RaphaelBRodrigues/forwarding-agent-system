@@ -2,7 +2,7 @@
   "presets": [
     "@babel/preset-env",
     [
-      "@babel/preset-react", 
+      "@babel/preset-react",
       {
         "runtime": "automatic"
       }
@@ -15,15 +15,52 @@
       {
         "useESModules": true,
         "regenerator": false
+      },
+    ],
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./"
+        ],
+        "alias": {
+          "@Types": [
+            "./src/@types"
+          ],
+          "@Assets": [
+            "./src/assets"
+          ],
+          "@Hooks": [
+            "./src/hooks"
+          ],
+          "@Utils": [
+            "./src/utils"
+          ],
+          "@Atoms": [
+            "./src/components/atoms"
+          ],
+          "@Molecules": [
+            "./src/components/molecules"
+          ],
+          "@Organisms": [
+            "./src/components/organisms"
+          ],
+          "@Templates": [
+            "./src/components/templates"
+          ]
+        }
       }
     ]
   ],
   "env": {
     "test": {
       "presets": [
-        ["@babel/preset-env", {
-          "targets": "current node"
-        }]
+        [
+          "@babel/preset-env",
+          {
+            "targets": "current node"
+          }
+        ]
       ]
     }
   }

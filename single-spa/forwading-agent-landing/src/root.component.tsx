@@ -1,3 +1,6 @@
+import Home from "@Templates/Home";
+import React from "react";
+// const Home: React.FC = () => <>DSA</>;
 export default function Root(props) {
-  return <section>{props.name} is mountsdased!</section>;
+  return <Home />;
 }
