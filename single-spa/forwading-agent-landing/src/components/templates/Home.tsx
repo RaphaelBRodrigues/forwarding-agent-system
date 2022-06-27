@@ -1,7 +1,8 @@
+import Header from "@Organisms/Header";
 import React from "react";
 
 const Home: React.FC = () => {
-  return <div>Home</div>;
+  return <Header />;
 };
 
 export default Home;
