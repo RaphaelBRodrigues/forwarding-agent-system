@@ -11,9 +11,6 @@
       "@Assets/*": [
         "./assets/*"
       ],
-      // "@Components/*": [
-      //   "./components/"
-      // ],
       "@Hooks/*": [
         "./hooks/*"
       ],
@@ -22,6 +19,9 @@
       ],
       "@Atoms/*": [
         "./components/atoms/*"
+      ],
+      "@Styles/*": [
+        "./styles/*"
       ],
       "@Molecules/*": [
         "./components/molecules/*"

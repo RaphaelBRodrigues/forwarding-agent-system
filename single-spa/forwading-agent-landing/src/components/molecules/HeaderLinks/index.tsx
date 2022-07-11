@@ -5,7 +5,9 @@ import * as S from "./styled";
 const HeaderLinks = () => {
   return (
     <S.LinksWrapper>
-      <Link />
+      <Link href="#">Home</Link>
+      <Link href="#">Localização</Link>
+      <Link href="#">Contato</Link>
     </S.LinksWrapper>
   );
 };

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Link = styled.li`
+export const Text = styled.li`
   list-style: none;
   
   a {
